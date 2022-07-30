@@ -475,7 +475,7 @@ body{
 }
 .image1{
     width: 150%;
-    background-image: url(/images/illustration-hero.svg);
+    background-image: url(/illustration-hero.svg);
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 2;
@@ -588,7 +588,7 @@ body{
     }
     .image1{
         width: 200%;
-        background-image: url(/images/illustration-hero.svg);
+        background-image: url(/illustration-hero.svg);
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 2;
@@ -879,7 +879,7 @@ body{
 }
 .image2{
     width: 90%;
-    background-image: url(/images/illustration-features-tab-1.svg);
+    background-image: url(/illustration-features-tab-1.svg);
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 2;
@@ -887,7 +887,7 @@ body{
 }
 .image3{
     width: 90%;
-    background-image: url(/images/illustration-features-tab-2.svg);
+    background-image: url(/illustration-features-tab-2.svg);
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 2;
@@ -895,7 +895,7 @@ body{
 }
 .image4{
     width: 80%;
-    background-image: url(/images/illustration-features-tab-3.svg);
+    background-image: url(/illustration-features-tab-3.svg);
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 2;
@@ -1003,7 +1003,7 @@ body{
     }
     .image2{
         width: 100%;
-        background-image: url(/images/illustration-features-tab-1.svg);
+        background-image: url(/illustration-features-tab-1.svg);
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 2;
@@ -1011,7 +1011,7 @@ body{
     }
     .image3{
         width: 100%;
-        background-image: url(/images/illustration-features-tab-2.svg);
+        background-image: url(/illustration-features-tab-2.svg);
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 2;
@@ -1019,7 +1019,7 @@ body{
     }
     .image4{
         width: 100%;
-        background-image: url(/images/illustration-features-tab-3.svg);
+        background-image: url(/illustration-features-tab-3.svg);
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 2;
