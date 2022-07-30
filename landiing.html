@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <script src="https://kit.fontawesome.com/4feeda6880.js" crossorigin="anonymous"></script>
+    <title>BookMark</title>
+    <link rel="stylesheet" href="landing.css">
+    <script src="https://kit.fontawesome.com/4feeda6880.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper" id="wrapper">
+        <div class="login_title">
+            <div class="loginform">Login</div>
+        </div>
+        <div class="close_btn">&times;</div>
+        <img src="/images/bg-dots.svg" alt="dot" class="dot1">
+        <div class="form_container">
+            <div class="form_inner">
+                <form action="#" class="loginproper">
+                    <div class="field">
+                        <input class="input input1 input2" type="text" placeholder="Email Address" required>
+                    </div>
+                    <div class="field">
+                        <input class="input input1" type="password" placeholder="Password" required>
+                    </div>
+                    <div class="pass_link"><a href="#">Forgot Password?</a></div>
+                    <div class="field">
+                        <input class="loginbtn" type="submit" value="Login">
+                    </div>
+                    <div class="signup_link">Not a member?<a href="#">Signup Now</a></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="blur">
+        <div class="headercontainer">
+            <div class="header">
+                <img src="/images/logo-bookmark.svg" alt="bookmark" class="boomarkimage">
+                <button class="navbarbutton" id="navbarbutton" aria-controls="navbar" aria-expanded="false"><span class="sr-only"></span></button>
+                <nav id="navbar" class="navbar" data-visible="false">
+                    <ul>
+                        <li><a href="#features">FEATURES</a></li>
+                        <li><a href="#">PRICING</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                        <li><a href="#" class="login" id="show_login" onclick="toggle()">LOGIN</a></li>
+                    </ul>
+                    <div class="iconc">
+                        <a href="#"><img src="/images/icon-facebook.svg" alt="facebook" class="imgicon"></a>
+                        <a href="#"><img src="/images/icon-twitter.svg" alt="twitter"></a>
+                    </div>
+                </nav>
+                
+            </div>
+        </div>
+        
+        <div class="content" >
+            <section class="home">
+                <div class="homewriteup">
+                    <h1 class="simple">A Simple Bookmark Manager</h1>
+                    <p class="clean">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+                    <div class="firstbuttons">
+                        <a href="https://chrome.google.com/webstore/detail/bookmark-manager/idakfiahffeejfhghndaboolmmhbnepn" target="_blank" class="button1">Get it on Chrome</a>
+                        <a href="https://addons.mozilla.org/en-US/firefox/addon/chrome-bookmark-manager/" target="_blank" class="button2">Get it on Firefox</a>
+                    </div>
+                </div>
+                <div class="homeimage">
+                    <div class="image1"></div>
+                    <div class="blue"></div>
+                </div>
+            </section>
+            <section class="features" id="features">
+                <div class="featurewriteup">
+                    <div class="fw">
+                        <div class="feaaim">
+                            <h3 class="fea">Features</h3>
+                            <p class="aim">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+                        </div>
+                        <div class="flinebox">
+                            <ul class="fline">
+                                <li class="flinetab qualification_active" data-target='#bookmark'>Simple Bookmarking</li>
+                                <li class="flinetab" data-target="#speedy">Speedy Searching</li>
+                                <li class="flinetab" data-target="#sharing">Easy Sharing</li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="bookcontent bookc qualification_active" data-content id="bookmark">
+                    <div class="bookimage">
+                        <div class="image2"></div>
+                        <div class="blue1"></div>
+                    </div>
+                    <div class="bookwriteup">
+                        <h1 class="click">Bookmark in one click</h1>
+                        <p class="organize">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                        <div class="firstbuttons">
+                            <a href="https://support.google.com/chrome/answer/188842?hl=en&co=GENIE.Platform%3DDesktop" target="_blank" class="button1">More Info</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="bookcontent bookc" data-content id="speedy">
+                    <div class="bookimage">
+                        <div class="image3"></div>
+                        <div class="blue1"></div>
+                    </div>
+                    <div class="bookwriteup">
+                        <h1 class="click">Intelligent Search</h1>
+                        <p class="organize">Our powerful search feature will help you find saved sites in no time at all. 
+                            No need to trawl through all of your bookmarks.</p>
+                        <div class="firstbuttons">
+                            <a href="https://support.google.com/chrome/answer/188842?hl=en&co=GENIE.Platform%3DDesktop" target="_blank" class="button1">More Info</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="bookcontent bookc" data-content id="sharing">
+                    <div class="bookimage">
+                        <div class="image4"></div>
+                        <div class="blue1"></div>
+                    </div>
+                    <div class="bookwriteup">
+                        <h1 class="click">Share your bookmarks</h1>
+                        <p class="organize">Easily share your bookmarks and collections with others. Create a shareable 
+                            link that you can send at the click of a button.</p>
+                        <div class="firstbuttons">
+                            <a href="https://support.google.com/chrome/answer/188842?hl=en&co=GENIE.Platform%3DDesktop" target="_blank" class="button1">More Info</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="extension">
+                <div class="feaaim">
+                    <h1 class="fea">Download the extension</h1>
+                    <p class="aim">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
+                </div>
+                <div class="layout3">
+                    <div class="chrome">
+                        <div class="imgcase"><img src="/images/logo-chrome.svg" alt="chrome" class="img3"></div>
+                        <h3 class="add">Add to Chrome</h3>
+                        <p class="mini">Minimum version 62</p>
+                        <img src="/images/bg-dots.svg" alt="dot" class="dot">
+                        <p class="inst"><a href="https://chrome.google.com/webstore/detail/bookmark-manager/idakfiahffeejfhghndaboolmmhbnepn" target="_blank" >Add & Install Extension</a></p>
+                    </div>
+                    <div class="firefox">
+                        <div class="imgcase"><img src="/images/logo-firefox.svg" alt="firefox" class="img3"></div>
+                        <h3 class="add">Add to Firefox</h3>
+                        <p class="mini">Minimum version 55</p>
+                        <img src="/images/bg-dots.svg" alt="dot" class="dot">
+                        <p class="inst"><a href="https://addons.mozilla.org/en-US/firefox/addon/chrome-bookmark-manager/" target="_blank">Add & Install Extension</a></p>
+                    </div>
+                    <div class="opera">
+                        <div class="imgcase"><img src="/images/logo-opera.svg" alt="opera" class="img3"></div>
+                        <h3 class="add">Add to Opera</h3>
+                        <p class="mini">Minimum version 46</p>
+                        <img src="/images/bg-dots.svg" alt="dot" class="dot">
+                        <p class="inst"><a href="https://addons.opera.com/en/extensions/details/bookmarks-manager-and-viewer/" target="_blank">Add & Install Extension</a></p>
+                    </div>
+                </div>
+            </section>
+            <section class="question">
+                <div>
+                    <div class="feaaim">
+                        <h1 class="fea">Frequently Asked Questions</h1>
+                        <p class="aim">Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p>
+
+                        <div class="accordion">
+                            <div class="question_content question_close"> 
+                                <div class="question_header">
+                                    <p class="question_title">What is Bookmark?
+                                    </p>
+                                    <i class="fa-solid fa-angle-down fa-lg question_arrow"></i>
+                                </div>
+                                <div class="question_answer">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magni vel, expedita excepturi neque maiores at quidem vero, et qui quae libero? Ut, dolorum quae.</p>
+                                </div>
+                            </div>
+                            <div class="question_content question_close"> 
+                                <div class="question_header">
+                                    <p class="question_title">How can I request a new browser?</p>
+                                    <i class="fa-solid fa-angle-down fa-lg question_arrow"></i>
+                                </div>
+                                <div class="question_answer">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magni vel, expedita excepturi neque maiores at quidem vero,Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, illo?.</p>
+                                </div>
+                            </div>
+                            <div class="question_content question_close"> 
+                                <div class="question_header">
+                                    <p class="question_title">Is there a mobile app?</p>
+                                    <i class="fa-solid fa-angle-down fa-lg question_arrow"></i>
+                                </div>
+                                <div class="question_answer">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magni vel, expedita excepturi neque maiores at quidem vero,Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, illo?.</p>
+                                </div>
+                            </div>
+                            <div class="question_content question_close"> 
+                                <div class="question_header">
+                                    <p class="question_title">What about other Chromium browsers?</p>
+                                    <i class="fa-solid fa-angle-down fa-lg question_arrow"></i>
+                                </div>
+                                <div class="question_answer">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magni vel, expedita excepturi neque maiores at quidem vero,Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, illo?.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="firstbuttons" align="center">
+                            <a href="https://webcull.com/reading/faq" target="_blank" class="button1">More Info</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact" id="contact">
+                <div class="blue-bg">
+                    <div align="center" style="padding-top: 60px;margin: 0 auto;">
+                        <p class="joined">35,000+ ALREADY JOINED</p>
+                        <h1 class="stay">Stay up-to-date with what we’re doing</h1>
+                        <div class="emailus">
+                            <input type="email" placeholder="Enter Your Email Address" class="email">
+                            <a href="#" class="us">Subscribe</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="navy-bg">
+                <div class="footercontent">
+                    <div class="footernav">
+                        <img src="/images/logo-bookmark.svg" alt="bookmark" class="imgbook">
+                        <nav class="ffnav">
+                            <ul>
+                                <li><a href="#features">FEATURES</a></li>
+                                <li><a href="#">PRICING</a></li>
+                                <li><a href="#contact">CONTACT</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="iconcontent">
+                        <a href="#"><img src="/images/icon-facebook.svg" alt="facebook" class="imgicon"></a>
+                        <a href="#"><img src="/images/icon-twitter.svg" alt="twitter"></a>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <p class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                Coded by <a href="https://ezeobinna.netlify.app/" target="_blank">Eze Obinna Alex</a>.
+                </p>
+            </footer>
+        </div>
+    </div>
+    <script src="nav.js" defer></script>
+</body>
+</html>
